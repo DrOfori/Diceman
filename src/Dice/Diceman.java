@@ -9,18 +9,11 @@ public class Diceman {
         this.numberOfActivities = numberOfActivities;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getNumberOfActivities() {
-        return numberOfActivities;
-    }
     public void doAction() {
         while (numberOfActivities <= 5) {
-
+            System.out.println("do an action");
+            numberOfActivities++;
         }
     }
-
 }
 
