@@ -1,9 +1,9 @@
-package Dice;
+package PACKAGE_NAME.Dice;
 
 import java.util.Random;
 
 public class Dice {
-     int face1;
+    /* int face1;
      int face2;
      int face3;
      int face4;
@@ -17,12 +17,15 @@ public class Dice {
         this.face4 = face4;
         this.face5 = face5;
         this.face6 = face6;
-    }
+    } */
 
-       public int rolldice() {
-        Random rand = new Random();
-        int roll = rand.nextInt(6) + 1;
-            return roll;
-        }
+
+       public static int rollDice() {
+           Random rand = new Random();
+           int roll = 0;
+           roll = rand.nextInt(6) + 1;
+           return roll;
+       }
+
 
 }
