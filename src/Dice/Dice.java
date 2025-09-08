@@ -1,4 +1,4 @@
-package Dice;
+package PACKAGE_NAME.Dice;
 
 import java.util.Random;
 
@@ -19,7 +19,7 @@ public class Dice {
         this.act6 = act6;
     }
 
-       public int rolldice() {
+       public static int rolldice() {
         Random rand = new Random();
         int roll = rand.nextInt(6) + 1;
             return roll;
